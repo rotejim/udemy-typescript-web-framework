@@ -1,0 +1,28 @@
+{
+  "name": "udemy-typescript-web-framework",
+  "version": "1.0.0",
+  "description": "Typescript: The Complete Developer's Guide - Section 13",
+  "scripts": {
+    "dev": "npx parcel index.html",
+    "database": "json-server -w db.json --port 3004",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rotejim/udemy-typescript-web-framework.git"
+  },
+  "keywords": [
+    "study",
+    "udemy",
+    "typescript"
+  ],
+  "author": "Randy Otero Jimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rotejim/udemy-typescript-web-framework/issues"
+  },
+  "homepage": "https://github.com/rotejim/udemy-typescript-web-framework#readme",
+  "dependencies": {
+    "axios": "^1.2.5"
+  }
+}
